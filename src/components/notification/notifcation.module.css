@@ -1,0 +1,79 @@
+.root {
+    /* position: fixed; */
+} 
+
+.notification-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.top-left {
+    position: fixed;
+    left: 0;
+    top: 0
+}
+
+.top-center {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0
+}
+
+.top-right {
+    position: fixed;
+    right: 0;
+    top: 0
+}
+
+.bottom-left {
+    position: fixed;
+    left: 0;
+    bottom: 0
+}
+
+.bottom-center {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0
+}
+
+.bottom-right {
+    position: fixed;
+    right: 0;
+    bottom: 0
+}
+
+.notification-item {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.notification-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.notification-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.success {
+  background-color: rgba(24, 206, 15, 0.8);
+}
+.error{
+    background-color: rgba(255, 54, 54, 0.8);
+}
+.info {
+    background-color: rgba(44, 168, 255, 0.8);
+}
+.warning {
+    background-color: rgba(255, 178, 54, 0.8);
+}
